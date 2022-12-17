@@ -1,0 +1,1 @@
+print("This is Group 9 AI lab excersice")
