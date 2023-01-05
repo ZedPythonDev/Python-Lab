@@ -1,25 +1,17 @@
-def say_hello():
-    print("hello there")
-say_hello()
-#this is comment
-'''this is doc string'''
-height = 1.9 
-wieght = 100
-fruit,animal = "banana" , "Dog"
-x=y=z="orange"
-print(type(x))
-print(len(y))
-print (animal)
-#name = input()
-"""a= input()
-b= input ()
-sum = int(a) + int(b)
-print (sum)"""
-name = input()
-age = input()
-number = input()
-print (f"flout {number}")
-print(f"Hello {name} your age is {age}")
+x = 60
+f = "Abebe"
+y = "Hello World"
+print(bin(x))
+print(oct(x))
+print(hex(x))
+print(str(x))
+print(f[: : -1])
+print(f.upper())
+print(y. split(','))
+
+x = input('Enter a number ')
+if x % 2:
+    print(f"the number is even")
 
 
 
