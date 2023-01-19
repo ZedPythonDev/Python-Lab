@@ -75,7 +75,7 @@ def main():
     lines = text.split("\n")
     number_of_line = len(lines)
     number_of_word = len(text.split())
-    number_of_characters = len(text)
+    number_of_characters = len(text) - text.count(' ')
     print("=====================================")
     print("Total Number of Line: ", number_of_line)
     print("Total Number of Word: ", number_of_word)
