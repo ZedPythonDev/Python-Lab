@@ -8,7 +8,7 @@ def remove_special_characters(string):
             string = string.replace(char_element, "")
     return string
 
-
+# reading from file and removing special character
 def validate_file(filename):
     try:
         with open(filename, 'r', encoding="utf-8") as f:
@@ -82,6 +82,6 @@ def main():
     print("Total Numbers of Characters: ", number_of_characters)
     print("=====================================")
     print()
-
+# calling main function
 if __name__ == '__main__':
     main()
