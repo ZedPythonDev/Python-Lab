@@ -1,5 +1,5 @@
 # file name
-file_name = "C:\Users\ZoolaPy\Desktop\Zoola-Python\group\zoola.txt"
+file_name = "C:/Users/ZoolaPy/Desktop/Zoola-Python/group/zoola.txt"
 
 
 def remove_special_characters(string):
@@ -14,9 +14,9 @@ def remove_special_characters(string):
 
 def validate_file(filename):
     try:
-        with open(filename, 'r', encoding="utf-8") as f:
+        with open(filename, 'r', encoding="utf8") as f:
             data = f.read()
-        with open(filename, "w", encoding="utf-8") as f:
+        with open(filename, "w+", encoding="utf8") as f:
             f.write(remove_special_characters(data))
     except FileNotFoundError:
         print("File not found")
@@ -42,7 +42,10 @@ def characters_frequency(my_file):
     for key, value in sorted_char_freq.items():
         if count == 5:
             break
-        print(key + " : " + str(value))
+        if key == " ":
+            print("Space :" + str(value))
+        else:
+            print(key + " : " + str(value))
         count += 1
     print()
 
@@ -66,10 +69,12 @@ def word_frequency(text):
         print(word + " : " + str(freq))
 
 # Main function
+
+
 def main():
     validate_file(file_name)
     # read text from file
-    with open(file_name, "r", encoding="utf-8") as f:
+    with open(file_name, "r", encoding="utf8") as f:
         text = f.read()
     # print word frequency
     word_frequency(text)
@@ -86,6 +91,8 @@ def main():
     print("Total Numbers of Characters: ", number_of_characters)
     print("=====================================")
     print()
+
+
 # calling main function
 if __name__ == '__main__':
     main()

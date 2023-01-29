@@ -1,5 +1,41 @@
-zoola how are you
+zow are you
 this is AI group assignment
 there is python lab turorial 
 this is computer science lab 
 python is best for begginer programmer
+Parallel al64gori4thm23s are a class of algorithms that are designed to take advantage of the parallel processing capabilities of modern computer hardware These algorithms are used to solve problems that are too large or too complex to be solved by a single processor in a reasonable amount of time
+There are several strategies that can be used to parallelize an algorithm including
+Distributed Memory 56Parallelism This strategy involves dividing the problem into smaller sub problems that can be solved independently by different processors The processors communicate with each other to exchange information and combine the results
+Shared Memory Parallelism This strategy involves using a single shared memory space to store the data and the results All processors access the shared memory to read and write data and results
+Hybrid Parallelism This strate5gy combines both distributed memory parallelism and shared memory parallelism The problem is divided into smaller subproblems that can be solved independently by different processors and they share some memory space to exchange information
+GPU Acceleration This strategy uses the massive parallel processing power of Graphics Processing Units GPUs to perform the computation in parallel
+Task parallelism This strategy involves breaking down the problem into smaller tasks that can be executed in parallel
+The choice of the parallel strategy depends on the nature of the problem and the hardware architecture
+አዳማ ሳይንስና ቴክኖሎጂ ዩኒቨርሲቲ ለሚያካሂደው 4ኛው ዓለም አቀፍ የምርምር ሲምፖዚየም ረቂቅ እየተቀበለ ነው 
+
+ዩኒቨርሲቲው በምርምር እና ፈጠራ የዲጂታል ኢኮኖሚን ማሳደግ በሚል መሪ ቃል ዓለም አቀፍ ሲምፖዚየም ሚያዝያ 20 እና 212015 ዓም ያካሂዳል 
+
+ረቂቅ ለማስገባት ተከታዩን ሊንክ ይጠቀሙ፦ 
+
+irsastueduet
+
+ረቂቅ የማስገቢያ ጊዜ የሚያበቃው
+
+ጥር 022015 ዓም 
+
+ለበለጠ መረጃ፦
+
+ያዴታ ጪምዴሳ ዶር       0947372481
+ፈድሉ ከድር ዶር            0911301849
+Vacancy 
+=======
+
+Commercial Bank of Ethiopia would like to invite qualified and interested job seekers to apply for the following positions:
+
+1.  Administrative Assistant IV
+2.  Administrative Assistant III
+3.  Administrative Assistant II
+
+Interested and qualified job seekers should apply through CBE career website (https://vacancy.cbe.com.et) from January 01– 10, 2023.
+
+For requirements and other detail information, please use the following link:
